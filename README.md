@@ -1,17 +1,29 @@
 # 🛡️ Enclave Watch
 
 > **AI-Based Threat Detection System for Unidirectional IP Traffic Flows**  
-> Developed for **Smart India Hackathon (SIH) 2026** · **Problem Statement 26145**  
+> Developed & Engineered by **Subhradeep Kundu**  
+> **Smart India Hackathon (SIH) 2026** · **Problem Statement 26145**  
 > Organization: **National Technical Research Organisation (NTRO)**
 
 ---
 
+[![Author: Subhradeep Kundu](https://img.shields.io/badge/Author-Subhradeep%20Kundu-00f0ff.svg?style=flat-square)](#-author--creator)
 [![License: MIT](https://img.shields.io/badge/License-MIT-00f0ff.svg)](LICENSE)
 [![Python 3.10+](https://img.shields.io/badge/Python-3.10%2B-blue.svg)](https://www.python.org/)
 [![React 18+](https://img.shields.io/badge/React-18%2B-61dafb.svg)](https://reactjs.org/)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.100%2B-009688.svg)](https://fastapi.tiangolo.com/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind-3.0-38bdf8.svg)](https://tailwindcss.com/)
 [![Security: Passive Only](https://img.shields.io/badge/Security-Passive%20Only%20(Air--Gapped)-ff0055.svg)](#-unidirectional-security-architecture)
+
+---
+
+## 👨‍💻 Author & Creator
+
+**Enclave Watch** was designed, architected, and built by **Subhradeep Kundu**.
+
+- **Author**: Subhradeep Kundu
+- **GitHub**: [@subhradeepkundu270305](https://github.com/subhradeepkundu270305)
+- **Project Repository**: [https://github.com/subhradeepkundu270305/enclave-watch](https://github.com/subhradeepkundu270305/enclave-watch)
 
 ---
 
@@ -81,7 +93,7 @@ Enclave Watch implements mathematical and statistical algorithms tailored for pa
 
 ```bash
 # 1. Clone repository
-git clone https://github.com/your-username/enclave-watch.git
+git clone https://github.com/subhradeepkundu270305/enclave-watch.git
 cd enclave-watch
 
 # 2. Build and launch services
@@ -170,7 +182,7 @@ Enclave Watch/
 │   │   ├── context/          # WebSocket Provider & Global Telemetry State
 │   │   └── lib/              # Framer Motion animations & API clients
 ├── docker-compose.yml        # Multi-container orchestration
-├── LICENSE                   # MIT Open Source License
+├── LICENSE                   # MIT Open Source License (Copyright © 2026 Subhradeep Kundu)
 ├── .gitignore                # Production ignore configuration
 └── README.md                 # System documentation
 ```
@@ -179,10 +191,4 @@ Enclave Watch/
 
 ## ⚖️ License
 
-Distributed under the **MIT License**. See [`LICENSE`](LICENSE) for details.
-
----
-
-## 👨‍💻 Team & Acknowledgments
-
-Developed for **Smart India Hackathon 2026** under **Problem Statement 26145** (National Technical Research Organisation - NTRO).
+Distributed under the **MIT License**. Copyright (c) 2026 **Subhradeep Kundu**. See [`LICENSE`](LICENSE) for details.
