@@ -19,6 +19,11 @@ __pycache__/
 .coverage
 htmlcov/
 
+# Cryptographic keys & PEM certificates
+*.pem
+backend/keys/
+keys/
+
 # Local Database & SQLite files
 *.db
 *.sqlite
