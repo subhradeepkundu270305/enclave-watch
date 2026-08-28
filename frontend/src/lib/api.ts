@@ -33,4 +33,6 @@ export const api = {
   demoRunAll:         () => post<any>("/demo/run-all"),
 };
 
-export const WS_URL = BASE.replace(/^http/, "ws") + "/ws";
+export const WS_URL =
+  import.meta.env.VITE_WS_URL ??
+  BASE.replace(/^https/, "wss").replace(/^http/, "ws") + "/ws";
