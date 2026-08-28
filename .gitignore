@@ -1,0 +1,47 @@
+# Node dependencies & builds
+node_modules/
+frontend/node_modules/
+dist/
+dist-ssr/
+frontend/dist/
+
+# Python virtual environment & cache
+.venv/
+venv/
+ENV/
+env/
+backend/.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local Database & SQLite files
+*.db
+*.sqlite
+*.sqlite3
+backend/*.db
+
+# Logs & Environment
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# OS & Editor files
+.DS_Store
+Thumbs.db
+.vscode/
+!.vscode/extensions.json
+.idea/
+*.swp
+*.swo
