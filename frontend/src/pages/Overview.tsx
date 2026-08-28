@@ -9,12 +9,12 @@ import { api } from "../lib/api";
 import { Activity, Shield, Zap, Link } from "lucide-react";
 
 const PIPELINE_STAGES = [
-  { label: "Traffic Copy",    desc: "TAP / SPAN / Diode input",       color: "text-cyber-accent" },
-  { label: "Network Parsing", desc: "Zeek-style conn.log extraction",  color: "text-cyber-green"  },
-  { label: "Streaming",       desc: "asyncio.Queue (Kafka substitute)",color: "text-cyber-amber"  },
-  { label: "AI Detection",    desc: "6 parallel ML detectors",         color: "text-cyber-purple" },
-  { label: "Alert & Evidence",desc: "SHA-256 + Ed25519 chain",         color: "text-cyber-red"    },
-  { label: "Dashboard",       desc: "React UI over WebSocket",          color: "text-cyber-accent" },
+  { label: "Traffic Copy",    desc: "TAP / SPAN / Diode input",        color: "text-cyber-accent", dotBg: "bg-cyber-accent", glow: "shadow-[0_0_10px_#00f0ff]" },
+  { label: "Network Parsing", desc: "Zeek-style conn.log extraction",   color: "text-cyber-green",  dotBg: "bg-cyber-green",  glow: "shadow-[0_0_10px_#00ff88]" },
+  { label: "Streaming",       desc: "asyncio.Queue (Kafka substitute)", color: "text-cyber-amber",  dotBg: "bg-cyber-amber",  glow: "shadow-[0_0_10px_#ffb700]" },
+  { label: "AI Detection",    desc: "6 parallel ML detectors",          color: "text-cyber-purple", dotBg: "bg-cyber-purple", glow: "shadow-[0_0_10px_#a855f7]" },
+  { label: "Alert & Evidence",desc: "SHA-256 + Ed25519 chain",          color: "text-cyber-red",    dotBg: "bg-cyber-red",    glow: "shadow-[0_0_10px_#ff0055]" },
+  { label: "Dashboard",       desc: "React UI over WebSocket",           color: "text-cyber-accent", dotBg: "bg-cyber-accent", glow: "shadow-[0_0_10px_#00f0ff]" },
 ];
 
 export default function Overview() {
@@ -91,7 +91,7 @@ export default function Overview() {
                 className="flex items-center gap-3 p-2 rounded-lg bg-cyber-surface/50 border border-transparent hover:border-cyber-accent/30 cursor-pointer transition-all"
               >
                 <span className="font-mono text-xs font-bold text-cyber-muted w-4">0{i + 1}</span>
-                <div className={`w-2 h-2 rounded-full ${s.color.replace("text-", "bg-")} shadow-glow-accent`} />
+                <div className={`w-2.5 h-2.5 rounded-full ${s.dotBg} ${s.glow} shrink-0`} />
                 <div>
                   <p className={`text-xs font-mono font-semibold ${s.color}`}>{s.label}</p>
                   <p className="text-[10px] text-cyber-muted">{s.desc}</p>
